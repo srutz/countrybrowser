@@ -1,6 +1,7 @@
 import { Stack } from "expo-router";
 
 import { NativeWindStyleSheet } from "nativewind";
+import { AppStateProvider } from "../hooks/AppContext";
 
 NativeWindStyleSheet.setOutput({
     default: "native",
@@ -8,8 +9,11 @@ NativeWindStyleSheet.setOutput({
 
 export default function RootLayout() {
     return (
-        <Stack>
-            <Stack.Screen name="index" options={{ headerShown: true, headerTitle: "ARD Newsstream" }} />
-        </Stack>
+        <AppStateProvider>
+            <Stack>
+                <Stack.Screen name="(tabs)" options={{ headerShown: false, headerTitle: "ARD Newsstream" }} />
+                <Stack.Screen name="details/[itemid]" options={{ headerShown: true }} />
+            </Stack>
+        </AppStateProvider>
     )
 }

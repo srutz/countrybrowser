@@ -3,6 +3,7 @@ import { parseString } from 'xml2js';
 import { DOMParser } from 'xmldom';
 
 export type NewsItem = {
+    id: number
     title: string
     description: string
     pubDate: string
@@ -27,7 +28,8 @@ export async function loadNewsFeed(): Promise<NewsItem[]> {
             }
             //console.log(result.rss)
             const items = result.rss.channel[0].item
-            const newsItems: NewsItem[] = items.map((item: any) => ({
+            const newsItems: NewsItem[] = items.map((item: any, index: number) => ({
+                id: index + 1,
                 title: item.title[0],
                 description: item.description[0],
                 pubDate: item.pubDate[0],
