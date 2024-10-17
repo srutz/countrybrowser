@@ -2,10 +2,11 @@
 import { parseString } from 'xml2js';
 
 export type NewsItem = {
-    title: string;
-    description: string;
-    pubDate: string;
-    link: string;
+    title: string
+    description: string
+    pubDate: string
+    link: string
+    contentEncoded?: string
 }
 
 export async function loadNewsFeed(): Promise<NewsItem[]> {
@@ -22,14 +23,15 @@ export async function loadNewsFeed(): Promise<NewsItem[]> {
                 reject(err)
                 return
             }
-            console.log(result.rss)
+            //console.log(result.rss)
             const items = result.rss.channel[0].item
             const newsItems: NewsItem[] = items.map((item: any) => ({
                 title: item.title[0],
                 description: item.description[0],
                 pubDate: item.pubDate[0],
                 link: item.link[0],
-            }))
+                contentEncoded: item['content:encoded'] ? item['content:encoded'][0] : undefined
+            } satisfies NewsItem))
             resolve(newsItems)
         })
     })

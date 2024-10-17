@@ -9,7 +9,7 @@ NativeWindStyleSheet.setOutput({
 export default function RootLayout() {
     return (
         <Stack>
-            <Stack.Screen name="index" options={{ headerShown: true, headerTitle: "yo" }} />
+            <Stack.Screen name="index" options={{ headerShown: true, headerTitle: "ARD Newsstream" }} />
         </Stack>
     )
 }
