@@ -1,5 +1,5 @@
-import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useState } from 'react';
-import { NewsItem } from '../components/NewsLoader';
+import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from 'react';
+import { loadNewsFeed, NewsItem } from '../components/NewsLoader';
 
 
 export type AppState = {
@@ -17,6 +17,15 @@ export function AppStateProvider({ children }: { children?: ReactNode}) {
     const [appState, setAppState] = useState<AppState>({
         newsItems: []
     })
+    useEffect(() => {
+        (async () => {
+            const items = await loadNewsFeed()
+            const newState: AppState = {...appState, newsItems: items}
+            setAppState(newState)
+        })()
+    }, [])
+
+
     return (
         <AppStateContext.Provider value={{ appState, setAppState }}>
             {children}

@@ -1,20 +1,11 @@
 import { router } from "expo-router";
-import { useEffect } from "react";
 import { FlatList, Image, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { loadNewsFeed, NewsItem } from "../../components/NewsLoader";
-import { AppState, useAppState } from "../../hooks/AppContext";
+import { NewsItem } from "../../components/NewsLoader";
+import { useAppState } from "../../hooks/AppContext";
 
 export default function Page() {
     const { appState, setAppState } = useAppState()
-    useEffect(() => {
-        (async () => {
-            const items = await loadNewsFeed()
-            const newState: AppState = {...appState, newsItems: items}
-            setAppState(newState)
-        })()
-    }, [])
-
     return (
         <SafeAreaProvider>
             <SafeAreaView className="flex-1">
