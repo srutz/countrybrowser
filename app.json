@@ -1,7 +1,7 @@
 {
     "expo": {
-        "name": "ardnews",
-        "slug": "ardnews",
+        "name": "countrybrowser",
+        "slug": "countrybrowser",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",

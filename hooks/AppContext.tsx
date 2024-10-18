@@ -1,9 +1,9 @@
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from 'react';
-import { loadNewsFeed, NewsItem } from '../components/NewsLoader';
+import { loadAllCountries } from '../components/Loader';
 
 
 export type AppState = {
-    newsItems: NewsItem[]
+    countries: Country[]
 }
 
 
@@ -15,17 +15,17 @@ export const AppStateContext = createContext<{
 
 export function AppStateProvider({ children }: { children?: ReactNode}) {
     const [appState, setAppState] = useState<AppState>({
-        newsItems: []
+        countries: []
     })
     useEffect(() => {
-        (async () => {
-            const items = await loadNewsFeed()
-            const newState: AppState = {...appState, newsItems: items}
-            setAppState(newState)
+        (async () => { 
+            const countries = await loadAllCountries()
+            console.time('loadAllCountries')
+            const s: AppState = {...appState, countries }
+            console.timeEnd('loadAllCountries')
+            setAppState(s)
         })()
     }, [])
-
-
     return (
         <AppStateContext.Provider value={{ appState, setAppState }}>
             {children}

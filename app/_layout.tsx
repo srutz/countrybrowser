@@ -11,7 +11,7 @@ export default function RootLayout() {
     return (
         <AppStateProvider>
             <Stack>
-                <Stack.Screen name="(tabs)" options={{ headerShown: false, headerTitle: "ARD Newsstream" }} />
+                <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
                 <Stack.Screen name="details/[itemid]" options={{ headerShown: true }} />
             </Stack>
         </AppStateProvider>
