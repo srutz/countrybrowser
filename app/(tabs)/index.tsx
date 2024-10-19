@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FlatList, Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useAppState } from "../../hooks/AppContext";
@@ -11,10 +11,13 @@ const nf = new Intl.NumberFormat('de-DE', {
 })
 
 export default function Page() {
-    const { appState, setAppState } = useAppState()
+    const { appState } = useAppState()
     const [searchQuery, setSearchQuery] = useState('')
 
-    const [countries, setCountries] = useState<Country[]>(appState.countries)
+    const [countries, setCountries] = useState<Country[]>([])
+    useEffect(() => {
+        setCountries([...appState.countries])
+    }, [appState.countries])
 
     const doFilter = (text: string) => {
         const filtered = appState.countries.filter((item) => {
@@ -28,6 +31,7 @@ export default function Page() {
         setSearchQuery(text)
         debouncedCallback(text)
     }
+    console.log("rendering countries", countries.length)
     return (
         <SafeAreaView className="flex-1">
             <TextInput placeholder="Search..."

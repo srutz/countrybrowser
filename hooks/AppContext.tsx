@@ -23,6 +23,7 @@ export function AppStateProvider({ children }: { children?: ReactNode}) {
             console.time('loadAllCountries')
             const s: AppState = {...appState, countries }
             console.timeEnd('loadAllCountries')
+            console.log("loaded countries", countries.length)
             setAppState(s)
         })()
     }, [])
