@@ -14,13 +14,12 @@ export default function Page() {
         <ScrollView className="flex-1 bg-white">
             <View className="relative w-full h-[250px]">
                 <Image source={imageSource} className="z-0 w-full h-[250px]" />
-                <Text className="text-6xl text-blue-600 font-bold mb-1 uppercase tracking-tighter absolute bottom-5 px-4">About Ardnews</Text>
+                <Text className="text-4xl text-black font-bold mb-1 uppercase tracking-tighter absolute bottom-2 px-4">About Countrybrowser</Text>
             </View>
             <View className="p-4">
 
                 <Text className="text-lg mb-6 text-gray-700">
-                    This is a simple news reader app that fetches news from an RSS feed and displays them in a list.
-                    The RSS Feed is fetched from the ARD Tagesschau website.
+                    This is a simple demonstration app.
                 </Text>
 
                 <View className="mb-4">

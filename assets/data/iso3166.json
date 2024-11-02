@@ -1,0 +1,1407 @@
+[
+    {
+        "cca3": "ABW",
+        "href": "/wiki/Aruba"
+    },
+    {
+        "cca3": "AFG",
+        "href": "/wiki/Afghanistan"
+    },
+    {
+        "cca3": "AGO",
+        "href": "/wiki/Angola"
+    },
+    {
+        "cca3": "AIA",
+        "href": "/wiki/Anguilla"
+    },
+    {
+        "cca3": "ALA",
+        "href": "/wiki/%C3%85land_Islands"
+    },
+    {
+        "cca3": "ALB",
+        "href": "/wiki/Albania"
+    },
+    {
+        "cca3": "AND",
+        "href": "/wiki/Andorra"
+    },
+    {
+        "cca3": "ARE",
+        "href": "/wiki/United_Arab_Emirates"
+    },
+    {
+        "cca3": "ARG",
+        "href": "/wiki/Argentina"
+    },
+    {
+        "cca3": "ARM",
+        "href": "/wiki/Armenia"
+    },
+    {
+        "cca3": "ASM",
+        "href": "/wiki/American_Samoa"
+    },
+    {
+        "cca3": "ATA",
+        "href": "/wiki/Antarctica"
+    },
+    {
+        "cca3": "ATF",
+        "href": "/wiki/French_Southern_and_Antarctic_Lands"
+    },
+    {
+        "cca3": "ATG",
+        "href": "/wiki/Antigua_and_Barbuda"
+    },
+    {
+        "cca3": "AUS",
+        "href": "/wiki/Australia"
+    },
+    {
+        "cca3": "AUT",
+        "href": "/wiki/Austria"
+    },
+    {
+        "cca3": "AZE",
+        "href": "/wiki/Azerbaijan"
+    },
+    {
+        "cca3": "BDI",
+        "href": "/wiki/Burundi"
+    },
+    {
+        "cca3": "BEL",
+        "href": "/wiki/Belgium"
+    },
+    {
+        "cca3": "BEN",
+        "href": "/wiki/Benin"
+    },
+    {
+        "cca3": "BES",
+        "href": "/wiki/Caribbean_Netherlands"
+    },
+    {
+        "cca3": "BFA",
+        "href": "/wiki/Burkina_Faso"
+    },
+    {
+        "cca3": "BGD",
+        "href": "/wiki/Bangladesh"
+    },
+    {
+        "cca3": "BGR",
+        "href": "/wiki/Bulgaria"
+    },
+    {
+        "cca3": "BHR",
+        "href": "/wiki/Bahrain"
+    },
+    {
+        "cca3": "BHS",
+        "href": "/wiki/The_Bahamas"
+    },
+    {
+        "cca3": "BIH",
+        "href": "/wiki/Bosnia_and_Herzegovina"
+    },
+    {
+        "cca3": "BLM",
+        "href": "/wiki/Saint_Barth%C3%A9lemy"
+    },
+    {
+        "cca3": "BLR",
+        "href": "/wiki/Belarus"
+    },
+    {
+        "cca3": "BLZ",
+        "href": "/wiki/Belize"
+    },
+    {
+        "cca3": "BMU",
+        "href": "/wiki/Bermuda"
+    },
+    {
+        "cca3": "BOL",
+        "href": "/wiki/Bolivia"
+    },
+    {
+        "cca3": "BRA",
+        "href": "/wiki/Brazil"
+    },
+    {
+        "cca3": "BRB",
+        "href": "/wiki/Barbados"
+    },
+    {
+        "cca3": "BRN",
+        "href": "/wiki/Brunei"
+    },
+    {
+        "cca3": "BTN",
+        "href": "/wiki/Bhutan"
+    },
+    {
+        "cca3": "BVT",
+        "href": "/wiki/Bouvet_Island"
+    },
+    {
+        "cca3": "BWA",
+        "href": "/wiki/Botswana"
+    },
+    {
+        "cca3": "CAF",
+        "href": "/wiki/Central_African_Republic"
+    },
+    {
+        "cca3": "CAN",
+        "href": "/wiki/Canada"
+    },
+    {
+        "cca3": "CCK",
+        "href": "/wiki/Cocos_(Keeling)_Islands"
+    },
+    {
+        "cca3": "CHE",
+        "href": "/wiki/Switzerland"
+    },
+    {
+        "cca3": "CHL",
+        "href": "/wiki/Chile"
+    },
+    {
+        "cca3": "CHN",
+        "href": "/wiki/China"
+    },
+    {
+        "cca3": "CIV",
+        "href": "/wiki/Ivory_Coast"
+    },
+    {
+        "cca3": "CMR",
+        "href": "/wiki/Cameroon"
+    },
+    {
+        "cca3": "COD",
+        "href": "/wiki/Democratic_Republic_of_the_Congo"
+    },
+    {
+        "cca3": "COG",
+        "href": "/wiki/Republic_of_the_Congo"
+    },
+    {
+        "cca3": "COK",
+        "href": "/wiki/Cook_Islands"
+    },
+    {
+        "cca3": "COL",
+        "href": "/wiki/Colombia"
+    },
+    {
+        "cca3": "COM",
+        "href": "/wiki/Comoros"
+    },
+    {
+        "cca3": "CPV",
+        "href": "/wiki/Cabo_Verde"
+    },
+    {
+        "cca3": "CRI",
+        "href": "/wiki/Costa_Rica"
+    },
+    {
+        "cca3": "CUB",
+        "href": "/wiki/Cuba"
+    },
+    {
+        "cca3": "CUW",
+        "href": "/wiki/Cura%C3%A7ao"
+    },
+    {
+        "cca3": "CXR",
+        "href": "/wiki/Christmas_Island"
+    },
+    {
+        "cca3": "CYM",
+        "href": "/wiki/Cayman_Islands"
+    },
+    {
+        "cca3": "CYP",
+        "href": "/wiki/Cyprus"
+    },
+    {
+        "cca3": "CZE",
+        "href": "/wiki/Czechia"
+    },
+    {
+        "cca3": "DEU",
+        "href": "/wiki/Germany"
+    },
+    {
+        "cca3": "DJI",
+        "href": "/wiki/Djibouti"
+    },
+    {
+        "cca3": "DMA",
+        "href": "/wiki/Dominica"
+    },
+    {
+        "cca3": "DNK",
+        "href": "/wiki/Denmark"
+    },
+    {
+        "cca3": "DOM",
+        "href": "/wiki/Dominican_Republic"
+    },
+    {
+        "cca3": "DZA",
+        "href": "/wiki/Algeria"
+    },
+    {
+        "cca3": "ECU",
+        "href": "/wiki/Ecuador"
+    },
+    {
+        "cca3": "EGY",
+        "href": "/wiki/Egypt"
+    },
+    {
+        "cca3": "ERI",
+        "href": "/wiki/Eritrea"
+    },
+    {
+        "cca3": "ESH",
+        "href": "/wiki/Western_Sahara"
+    },
+    {
+        "cca3": "ESP",
+        "href": "/wiki/Spain"
+    },
+    {
+        "cca3": "EST",
+        "href": "/wiki/Estonia"
+    },
+    {
+        "cca3": "ETH",
+        "href": "/wiki/Ethiopia"
+    },
+    {
+        "cca3": "FIN",
+        "href": "/wiki/Finland"
+    },
+    {
+        "cca3": "FJI",
+        "href": "/wiki/Fiji"
+    },
+    {
+        "cca3": "FLK",
+        "href": "/wiki/Falkland_Islands"
+    },
+    {
+        "cca3": "FRA",
+        "href": "/wiki/France"
+    },
+    {
+        "cca3": "FRO",
+        "href": "/wiki/Faroe_Islands"
+    },
+    {
+        "cca3": "FSM",
+        "href": "/wiki/Federated_States_of_Micronesia"
+    },
+    {
+        "cca3": "GAB",
+        "href": "/wiki/Gabon"
+    },
+    {
+        "cca3": "GBR",
+        "href": "/wiki/United_Kingdom"
+    },
+    {
+        "cca3": "GEO",
+        "href": "/wiki/Georgia_(country)"
+    },
+    {
+        "cca3": "GGY",
+        "href": "/wiki/Bailiwick_of_Guernsey"
+    },
+    {
+        "cca3": "GHA",
+        "href": "/wiki/Ghana"
+    },
+    {
+        "cca3": "GIB",
+        "href": "/wiki/Gibraltar"
+    },
+    {
+        "cca3": "GIN",
+        "href": "/wiki/Guinea"
+    },
+    {
+        "cca3": "GLP",
+        "href": "/wiki/Guadeloupe"
+    },
+    {
+        "cca3": "GMB",
+        "href": "/wiki/The_Gambia"
+    },
+    {
+        "cca3": "GNB",
+        "href": "/wiki/Guinea-Bissau"
+    },
+    {
+        "cca3": "GNQ",
+        "href": "/wiki/Equatorial_Guinea"
+    },
+    {
+        "cca3": "GRC",
+        "href": "/wiki/Greece"
+    },
+    {
+        "cca3": "GRD",
+        "href": "/wiki/Grenada"
+    },
+    {
+        "cca3": "GRL",
+        "href": "/wiki/Greenland"
+    },
+    {
+        "cca3": "GTM",
+        "href": "/wiki/Guatemala"
+    },
+    {
+        "cca3": "GUF",
+        "href": "/wiki/French_Guiana"
+    },
+    {
+        "cca3": "GUM",
+        "href": "/wiki/Guam"
+    },
+    {
+        "cca3": "GUY",
+        "href": "/wiki/Guyana"
+    },
+    {
+        "cca3": "HKG",
+        "href": "/wiki/Hong_Kong"
+    },
+    {
+        "cca3": "HMD",
+        "href": "/wiki/Heard_Island_and_McDonald_Islands"
+    },
+    {
+        "cca3": "HND",
+        "href": "/wiki/Honduras"
+    },
+    {
+        "cca3": "HRV",
+        "href": "/wiki/Croatia"
+    },
+    {
+        "cca3": "HTI",
+        "href": "/wiki/Haiti"
+    },
+    {
+        "cca3": "HUN",
+        "href": "/wiki/Hungary"
+    },
+    {
+        "cca3": "IDN",
+        "href": "/wiki/Indonesia"
+    },
+    {
+        "cca3": "IMN",
+        "href": "/wiki/Isle_of_Man"
+    },
+    {
+        "cca3": "IND",
+        "href": "/wiki/India"
+    },
+    {
+        "cca3": "IOT",
+        "href": "/wiki/British_Indian_Ocean_Territory"
+    },
+    {
+        "cca3": "IRL",
+        "href": "/wiki/Republic_of_Ireland"
+    },
+    {
+        "cca3": "IRN",
+        "href": "/wiki/Iran,_Islamic_Republic_of"
+    },
+    {
+        "cca3": "IRQ",
+        "href": "/wiki/Iraq"
+    },
+    {
+        "cca3": "ISL",
+        "href": "/wiki/Iceland"
+    },
+    {
+        "cca3": "ISR",
+        "href": "/wiki/Israel"
+    },
+    {
+        "cca3": "ITA",
+        "href": "/wiki/Italy"
+    },
+    {
+        "cca3": "JAM",
+        "href": "/wiki/Jamaica"
+    },
+    {
+        "cca3": "JEY",
+        "href": "/wiki/Jersey"
+    },
+    {
+        "cca3": "JOR",
+        "href": "/wiki/Jordan"
+    },
+    {
+        "cca3": "JPN",
+        "href": "/wiki/Japan"
+    },
+    {
+        "cca3": "KAZ",
+        "href": "/wiki/Kazakhstan"
+    },
+    {
+        "cca3": "KEN",
+        "href": "/wiki/Kenya"
+    },
+    {
+        "cca3": "KGZ",
+        "href": "/wiki/Kyrgyzstan"
+    },
+    {
+        "cca3": "KHM",
+        "href": "/wiki/Cambodia"
+    },
+    {
+        "cca3": "KIR",
+        "href": "/wiki/Kiribati"
+    },
+    {
+        "cca3": "KNA",
+        "href": "/wiki/Saint_Kitts_and_Nevis"
+    },
+    {
+        "cca3": "KOR",
+        "href": "/wiki/South_Korea"
+    },
+    {
+        "cca3": "KWT",
+        "href": "/wiki/Kuwait"
+    },
+    {
+        "cca3": "LAO",
+        "href": "/wiki/Laos"
+    },
+    {
+        "cca3": "LBN",
+        "href": "/wiki/Lebanon"
+    },
+    {
+        "cca3": "LBR",
+        "href": "/wiki/Liberia"
+    },
+    {
+        "cca3": "LBY",
+        "href": "/wiki/Libya"
+    },
+    {
+        "cca3": "LCA",
+        "href": "/wiki/Saint_Lucia"
+    },
+    {
+        "cca3": "LIE",
+        "href": "/wiki/Liechtenstein"
+    },
+    {
+        "cca3": "LKA",
+        "href": "/wiki/Sri_Lanka"
+    },
+    {
+        "cca3": "LSO",
+        "href": "/wiki/Lesotho"
+    },
+    {
+        "cca3": "LTU",
+        "href": "/wiki/Lithuania"
+    },
+    {
+        "cca3": "LUX",
+        "href": "/wiki/Luxembourg"
+    },
+    {
+        "cca3": "LVA",
+        "href": "/wiki/Latvia"
+    },
+    {
+        "cca3": "MAC",
+        "href": "/wiki/Macau"
+    },
+    {
+        "cca3": "MAF",
+        "href": "/wiki/Collectivity_of_Saint_Martin"
+    },
+    {
+        "cca3": "MAR",
+        "href": "/wiki/Morocco"
+    },
+    {
+        "cca3": "MCO",
+        "href": "/wiki/Monaco"
+    },
+    {
+        "cca3": "MDA",
+        "href": "/wiki/Moldova"
+    },
+    {
+        "cca3": "MDG",
+        "href": "/wiki/Madagascar"
+    },
+    {
+        "cca3": "MDV",
+        "href": "/wiki/Maldives"
+    },
+    {
+        "cca3": "MEX",
+        "href": "/wiki/Mexico"
+    },
+    {
+        "cca3": "MHL",
+        "href": "/wiki/Marshall_Islands"
+    },
+    {
+        "cca3": "MKD",
+        "href": "/wiki/North_Macedonia"
+    },
+    {
+        "cca3": "MLI",
+        "href": "/wiki/Mali"
+    },
+    {
+        "cca3": "MLT",
+        "href": "/wiki/Malta"
+    },
+    {
+        "cca3": "MMR",
+        "href": "/wiki/Myanmar"
+    },
+    {
+        "cca3": "MNE",
+        "href": "/wiki/Montenegro"
+    },
+    {
+        "cca3": "MNG",
+        "href": "/wiki/Mongolia"
+    },
+    {
+        "cca3": "MNP",
+        "href": "/wiki/Northern_Mariana_Islands"
+    },
+    {
+        "cca3": "MOZ",
+        "href": "/wiki/Mozambique"
+    },
+    {
+        "cca3": "MRT",
+        "href": "/wiki/Mauritania"
+    },
+    {
+        "cca3": "MSR",
+        "href": "/wiki/Montserrat"
+    },
+    {
+        "cca3": "MTQ",
+        "href": "/wiki/Martinique"
+    },
+    {
+        "cca3": "MUS",
+        "href": "/wiki/Mauritius"
+    },
+    {
+        "cca3": "MWI",
+        "href": "/wiki/Malawi"
+    },
+    {
+        "cca3": "MYS",
+        "href": "/wiki/Malaysia"
+    },
+    {
+        "cca3": "MYT",
+        "href": "/wiki/Mayotte"
+    },
+    {
+        "cca3": "NAM",
+        "href": "/wiki/Namibia"
+    },
+    {
+        "cca3": "NCL",
+        "href": "/wiki/New_Caledonia"
+    },
+    {
+        "cca3": "NER",
+        "href": "/wiki/Niger"
+    },
+    {
+        "cca3": "NFK",
+        "href": "/wiki/Norfolk_Island"
+    },
+    {
+        "cca3": "NGA",
+        "href": "/wiki/Nigeria"
+    },
+    {
+        "cca3": "NIC",
+        "href": "/wiki/Nicaragua"
+    },
+    {
+        "cca3": "NIU",
+        "href": "/wiki/Niue"
+    },
+    {
+        "cca3": "NLD",
+        "href": "/wiki/Kingdom_of_the_Netherlands"
+    },
+    {
+        "cca3": "NOR",
+        "href": "/wiki/Norway"
+    },
+    {
+        "cca3": "NPL",
+        "href": "/wiki/Nepal"
+    },
+    {
+        "cca3": "NRU",
+        "href": "/wiki/Nauru"
+    },
+    {
+        "cca3": "NZL",
+        "href": "/wiki/New_Zealand"
+    },
+    {
+        "cca3": "OMN",
+        "href": "/wiki/Oman"
+    },
+    {
+        "cca3": "PAK",
+        "href": "/wiki/Pakistan"
+    },
+    {
+        "cca3": "PAN",
+        "href": "/wiki/Panama"
+    },
+    {
+        "cca3": "PCN",
+        "href": "/wiki/Pitcairn_Islands"
+    },
+    {
+        "cca3": "PER",
+        "href": "/wiki/Peru"
+    },
+    {
+        "cca3": "PHL",
+        "href": "/wiki/Philippines"
+    },
+    {
+        "cca3": "PLW",
+        "href": "/wiki/Palau"
+    },
+    {
+        "cca3": "PNG",
+        "href": "/wiki/Papua_New_Guinea"
+    },
+    {
+        "cca3": "POL",
+        "href": "/wiki/Poland"
+    },
+    {
+        "cca3": "PRI",
+        "href": "/wiki/Puerto_Rico"
+    },
+    {
+        "cca3": "PRK",
+        "href": "/wiki/North_Korea"
+    },
+    {
+        "cca3": "PRT",
+        "href": "/wiki/Portugal"
+    },
+    {
+        "cca3": "PRY",
+        "href": "/wiki/Paraguay"
+    },
+    {
+        "cca3": "PSE",
+        "href": "/wiki/State_of_Palestine"
+    },
+    {
+        "cca3": "PYF",
+        "href": "/wiki/French_Polynesia"
+    },
+    {
+        "cca3": "QAT",
+        "href": "/wiki/Qatar"
+    },
+    {
+        "cca3": "REU",
+        "href": "/wiki/R%C3%A9union"
+    },
+    {
+        "cca3": "ROU",
+        "href": "/wiki/Romania"
+    },
+    {
+        "cca3": "RUS",
+        "href": "/wiki/Russia"
+    },
+    {
+        "cca3": "RWA",
+        "href": "/wiki/Rwanda"
+    },
+    {
+        "cca3": "SAU",
+        "href": "/wiki/Saudi_Arabia"
+    },
+    {
+        "cca3": "SDN",
+        "href": "/wiki/Sudan"
+    },
+    {
+        "cca3": "SEN",
+        "href": "/wiki/Senegal"
+    },
+    {
+        "cca3": "SGP",
+        "href": "/wiki/Singapore"
+    },
+    {
+        "cca3": "SGS",
+        "href": "/wiki/South_Georgia_and_the_South_Sandwich_Islands"
+    },
+    {
+        "cca3": "SHN",
+        "href": "/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+    },
+    {
+        "cca3": "SJM",
+        "href": "/wiki/Svalbard_and_Jan_Mayen"
+    },
+    {
+        "cca3": "SLB",
+        "href": "/wiki/Solomon_Islands"
+    },
+    {
+        "cca3": "SLE",
+        "href": "/wiki/Sierra_Leone"
+    },
+    {
+        "cca3": "SLV",
+        "href": "/wiki/El_Salvador"
+    },
+    {
+        "cca3": "SMR",
+        "href": "/wiki/San_Marino"
+    },
+    {
+        "cca3": "SOM",
+        "href": "/wiki/Somalia"
+    },
+    {
+        "cca3": "SPM",
+        "href": "/wiki/Saint_Pierre_and_Miquelon"
+    },
+    {
+        "cca3": "SRB",
+        "href": "/wiki/Serbia"
+    },
+    {
+        "cca3": "SSD",
+        "href": "/wiki/South_Sudan"
+    },
+    {
+        "cca3": "STP",
+        "href": "/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+    },
+    {
+        "cca3": "SUR",
+        "href": "/wiki/Suriname"
+    },
+    {
+        "cca3": "SVK",
+        "href": "/wiki/Slovakia"
+    },
+    {
+        "cca3": "SVN",
+        "href": "/wiki/Slovenia"
+    },
+    {
+        "cca3": "SWE",
+        "href": "/wiki/Sweden"
+    },
+    {
+        "cca3": "SWZ",
+        "href": "/wiki/Eswatini"
+    },
+    {
+        "cca3": "SXM",
+        "href": "/wiki/Sint_Maarten"
+    },
+    {
+        "cca3": "SYC",
+        "href": "/wiki/Seychelles"
+    },
+    {
+        "cca3": "SYR",
+        "href": "/wiki/Syria"
+    },
+    {
+        "cca3": "TCA",
+        "href": "/wiki/Turks_and_Caicos_Islands"
+    },
+    {
+        "cca3": "TCD",
+        "href": "/wiki/Chad"
+    },
+    {
+        "cca3": "TGO",
+        "href": "/wiki/Togo"
+    },
+    {
+        "cca3": "THA",
+        "href": "/wiki/Thailand"
+    },
+    {
+        "cca3": "TJK",
+        "href": "/wiki/Tajikistan"
+    },
+    {
+        "cca3": "TKL",
+        "href": "/wiki/Tokelau"
+    },
+    {
+        "cca3": "TKM",
+        "href": "/wiki/Turkmenistan"
+    },
+    {
+        "cca3": "TLS",
+        "href": "/wiki/East_Timor"
+    },
+    {
+        "cca3": "TON",
+        "href": "/wiki/Tonga"
+    },
+    {
+        "cca3": "TTO",
+        "href": "/wiki/Trinidad_and_Tobago"
+    },
+    {
+        "cca3": "TUN",
+        "href": "/wiki/Tunisia"
+    },
+    {
+        "cca3": "TUR",
+        "href": "/wiki/Turkey"
+    },
+    {
+        "cca3": "TUV",
+        "href": "/wiki/Tuvalu"
+    },
+    {
+        "cca3": "TWN",
+        "href": "/wiki/Taiwan"
+    },
+    {
+        "cca3": "TZA",
+        "href": "/wiki/Tanzania"
+    },
+    {
+        "cca3": "UGA",
+        "href": "/wiki/Uganda"
+    },
+    {
+        "cca3": "UKR",
+        "href": "/wiki/Ukraine"
+    },
+    {
+        "cca3": "UMI",
+        "href": "/wiki/United_States_Minor_Outlying_Islands"
+    },
+    {
+        "cca3": "URY",
+        "href": "/wiki/Uruguay"
+    },
+    {
+        "cca3": "USA",
+        "href": "/wiki/United_States"
+    },
+    {
+        "cca3": "UZB",
+        "href": "/wiki/Uzbekistan"
+    },
+    {
+        "cca3": "VAT",
+        "href": "/wiki/Vatican_City"
+    },
+    {
+        "cca3": "VCT",
+        "href": "/wiki/Saint_Vincent_and_the_Grenadines"
+    },
+    {
+        "cca3": "VEN",
+        "href": "/wiki/Venezuela"
+    },
+    {
+        "cca3": "VGB",
+        "href": "/wiki/British_Virgin_Islands"
+    },
+    {
+        "cca3": "VIR",
+        "href": "/wiki/United_States_Virgin_Islands"
+    },
+    {
+        "cca3": "VNM",
+        "href": "/wiki/Vietnam"
+    },
+    {
+        "cca3": "VUT",
+        "href": "/wiki/Vanuatu"
+    },
+    {
+        "cca3": "WLF",
+        "href": "/wiki/Wallis_and_Futuna"
+    },
+    {
+        "cca3": "WSM",
+        "href": "/wiki/Samoa"
+    },
+    {
+        "cca3": "YEM",
+        "href": "/wiki/Yemen"
+    },
+    {
+        "cca3": "ZAF",
+        "href": "/wiki/South_Africa"
+    },
+    {
+        "cca3": "ZMB",
+        "href": "/wiki/Zambia"
+    },
+    {
+        "cca3": "ZWE",
+        "href": "/wiki/Zimbabwe"
+    },
+    {
+        "cca3": "EUE",
+        "href": "/wiki/European_Union_laissez-passer"
+    },
+    {
+        "cca3": "XOM",
+        "href": "/wiki/Sovereign_Military_Order_of_Malta"
+    },
+    {
+        "cca3": "D",
+        "href": "/wiki/Germany"
+    },
+    {
+        "cca3": "XPO",
+        "href": "/wiki/Interpol_passport"
+    },
+    {
+        "cca3": "XXA",
+        "href": "/wiki/Statelessness"
+    },
+    {
+        "cca3": "XXB",
+        "href": "/wiki/Refugee"
+    },
+    {
+        "cca3": "XXC"
+    },
+    {
+        "cca3": "XXX"
+    },
+    {
+        "cca3": "XXB"
+    },
+    {
+        "cca3": "XXG"
+    },
+    {
+        "cca3": "XXI"
+    },
+    {
+        "cca3": "XXL"
+    },
+    {
+        "cca3": "XXP"
+    },
+    {
+        "cca3": "XXR"
+    },
+    {
+        "cca3": "XXW"
+    },
+    {
+        "cca3": "XXY"
+    },
+    {
+        "cca3": "XXE",
+        "href": "/wiki/SHAPE"
+    },
+    {
+        "cca3": "XXM"
+    },
+    {
+        "cca3": "XXN"
+    },
+    {
+        "cca3": "XXS",
+        "href": "/wiki/SACLANT"
+    },
+    {
+        "cca3": "ABB"
+    },
+    {
+        "cca3": "EEE"
+    },
+    {
+        "cca3": "FFF"
+    },
+    {
+        "cca3": "NNN"
+    },
+    {
+        "cca3": "SRR"
+    },
+    {
+        "cca3": "UUU"
+    },
+    {
+        "cca3": "NTT"
+    },
+    {
+        "cca3": "ASC",
+        "href": "/wiki/Ascension_Island"
+    },
+    {
+        "cca3": "CPT",
+        "href": "/wiki/Clipperton_Island"
+    },
+    {
+        "cca3": "CRQ",
+        "href": "/wiki/Sark"
+    },
+    {
+        "cca3": "DGA",
+        "href": "/wiki/Diego_Garcia"
+    },
+    {
+        "cca3": "FXX",
+        "href": "/wiki/Metropolitan_France"
+    },
+    {
+        "cca3": "SUN",
+        "href": "/wiki/Soviet_Union"
+    },
+    {
+        "cca3": "TAA",
+        "href": "/wiki/Tristan_da_Cunha"
+    },
+    {
+        "cca3": "GGY",
+        "href": "/wiki/Bailiwick_of_Guernsey"
+    },
+    {
+        "cca3": "IMN",
+        "href": "/wiki/Isle_of_Man"
+    },
+    {
+        "cca3": "JEY",
+        "href": "/wiki/Jersey"
+    },
+    {
+        "cca3": "ANT",
+        "href": "/wiki/Netherlands_Antilles"
+    },
+    {
+        "cca3": "BUR",
+        "href": "/wiki/Myanmar"
+    },
+    {
+        "cca3": "BYS",
+        "href": "/wiki/Byelorussian_Soviet_Socialist_Republic"
+    },
+    {
+        "cca3": "CSK",
+        "href": "/wiki/Czechoslovakia"
+    },
+    {
+        "cca3": "NTZ",
+        "href": "/wiki/Saudi_Arabian%E2%80%93Iraqi_neutral_zone"
+    },
+    {
+        "cca3": "ROM",
+        "href": "/wiki/Romania"
+    },
+    {
+        "cca3": "SCG",
+        "href": "/wiki/Serbia_and_Montenegro"
+    },
+    {
+        "cca3": "TMP",
+        "href": "/wiki/East_Timor"
+    },
+    {
+        "cca3": "YUG",
+        "href": "/wiki/Yugoslavia"
+    },
+    {
+        "cca3": "ZAR",
+        "href": "/wiki/Zaire"
+    },
+    {
+        "cca3": "ADN",
+        "href": "/wiki/Aden_Protectorate"
+    },
+    {
+        "cca3": "BDS",
+        "href": "/wiki/Barbados"
+    },
+    {
+        "cca3": "BRU",
+        "href": "/wiki/Brunei"
+    },
+    {
+        "cca3": "CDN",
+        "href": "/wiki/Canada"
+    },
+    {
+        "cca3": "EAK",
+        "href": "/wiki/Kenya"
+    },
+    {
+        "cca3": "EAT",
+        "href": "/wiki/Tanzania_Mainland"
+    },
+    {
+        "cca3": "EAU",
+        "href": "/wiki/Uganda"
+    },
+    {
+        "cca3": "EAZ",
+        "href": "/wiki/Zanzibar"
+    },
+    {
+        "cca3": "GBA",
+        "href": "/wiki/Alderney"
+    },
+    {
+        "cca3": "GBG",
+        "href": "/wiki/Guernsey"
+    },
+    {
+        "cca3": "GBJ",
+        "href": "/wiki/Jersey"
+    },
+    {
+        "cca3": "GBM",
+        "href": "/wiki/Isle_of_Man"
+    },
+    {
+        "cca3": "GBZ",
+        "href": "/wiki/Gibraltar"
+    },
+    {
+        "cca3": "GCA",
+        "href": "/wiki/Guatemala"
+    },
+    {
+        "cca3": "HKJ",
+        "href": "/wiki/Jordan"
+    },
+    {
+        "cca3": "MAL",
+        "href": "/wiki/Malaysia"
+    },
+    {
+        "cca3": "RCA",
+        "href": "/wiki/Central_African_Republic"
+    },
+    {
+        "cca3": "RCB",
+        "href": "/wiki/Republic_of_the_Congo"
+    },
+    {
+        "cca3": "RCH",
+        "href": "/wiki/Chile"
+    },
+    {
+        "cca3": "RMM",
+        "href": "/wiki/Mali"
+    },
+    {
+        "cca3": "RNR",
+        "href": "/wiki/Zambia"
+    },
+    {
+        "cca3": "ROK",
+        "href": "/wiki/South_Korea"
+    },
+    {
+        "cca3": "RSM",
+        "href": "/wiki/San_Marino"
+    },
+    {
+        "cca3": "RSR",
+        "href": "/wiki/Rhodesia"
+    },
+    {
+        "cca3": "SLO",
+        "href": "/wiki/Slovenia"
+    },
+    {
+        "cca3": "SME",
+        "href": "/wiki/Suriname"
+    },
+    {
+        "cca3": "TMN",
+        "href": "/wiki/Turkmenistan"
+    },
+    {
+        "cca3": "WAG",
+        "href": "/wiki/The_Gambia"
+    },
+    {
+        "cca3": "WAL",
+        "href": "/wiki/Sierra_Leone"
+    },
+    {
+        "cca3": "WAN",
+        "href": "/wiki/Nigeria"
+    },
+    {
+        "cca3": "ZRE",
+        "href": "/wiki/Zaire"
+    },
+    {
+        "cca3": "ROU",
+        "href": "/wiki/Uruguay"
+    },
+    {
+        "cca3": "GBD",
+        "href": "/wiki/British_Overseas_Territories_citizen"
+    },
+    {
+        "cca3": "GBN",
+        "href": "/wiki/British_National_(Overseas)"
+    },
+    {
+        "cca3": "GBO",
+        "href": "/wiki/British_Overseas_citizen"
+    },
+    {
+        "cca3": "GBP",
+        "href": "/wiki/British_protected_person"
+    },
+    {
+        "cca3": "GBS",
+        "href": "/wiki/British_subject"
+    },
+    {
+        "cca3": "UNA",
+        "href": "/wiki/List_of_specialized_agencies_of_the_United_Nations"
+    },
+    {
+        "cca3": "UNK",
+        "href": "/wiki/Kosovo"
+    },
+    {
+        "cca3": "UNO",
+        "href": "/wiki/United_Nations"
+    },
+    {
+        "cca3": "AFI",
+        "href": "/wiki/French_Territory_of_the_Afars_and_the_Issas"
+    },
+    {
+        "cca3": "ATB",
+        "href": "/wiki/British_Antarctic_Territory"
+    },
+    {
+        "cca3": "ATN",
+        "href": "/wiki/Queen_Maud_Land"
+    },
+    {
+        "cca3": "CTE",
+        "href": "/wiki/Canton_and_Enderbury_Islands"
+    },
+    {
+        "cca3": "DDR",
+        "href": "/wiki/East_Germany"
+    },
+    {
+        "cca3": "DHY",
+        "href": "/wiki/Republic_of_Dahomey"
+    },
+    {
+        "cca3": "GEL",
+        "href": "/wiki/Gilbert_and_Ellice_Islands"
+    },
+    {
+        "cca3": "HVO",
+        "href": "/wiki/Republic_of_Upper_Volta"
+    },
+    {
+        "cca3": "JTN",
+        "href": "/wiki/Johnston_Atoll"
+    },
+    {
+        "cca3": "MID",
+        "href": "/wiki/Midway_Atoll"
+    },
+    {
+        "cca3": "NHB",
+        "href": "/wiki/New_Hebrides"
+    },
+    {
+        "cca3": "PCI",
+        "href": "/wiki/Trust_Territory_of_the_Pacific_Islands"
+    },
+    {
+        "cca3": "PCZ",
+        "href": "/wiki/Panama_Canal_Zone"
+    },
+    {
+        "cca3": "PHI",
+        "href": "/wiki/Philippines"
+    },
+    {
+        "cca3": "PUS",
+        "href": "/wiki/United_States_Miscellaneous_Pacific_Islands"
+    },
+    {
+        "cca3": "RHO",
+        "href": "/wiki/Southern_Rhodesia"
+    },
+    {
+        "cca3": "SKM",
+        "href": "/wiki/Kingdom_of_Sikkim"
+    },
+    {
+        "cca3": "VDR",
+        "href": "/wiki/North_Vietnam"
+    },
+    {
+        "cca3": "WAK",
+        "href": "/wiki/Wake_Island"
+    },
+    {
+        "cca3": "YMD",
+        "href": "/wiki/South_Yemen"
+    }
+]

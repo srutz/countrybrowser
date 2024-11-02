@@ -1,11 +1,12 @@
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from 'react';
-import { loadAllCountries } from '../components/Loader';
+import { fetchIso3166Data, loadAllCountries } from '../components/Loader';
+import { IsoCode3 } from '../utils/Types';
 
 
 export type AppState = {
     countries: Country[]
+    isoCodes: IsoCode3[]
 }
-
 
 export const AppStateContext = createContext<{
     appState: AppState
@@ -15,15 +16,14 @@ export const AppStateContext = createContext<{
 
 export function AppStateProvider({ children }: { children?: ReactNode}) {
     const [appState, setAppState] = useState<AppState>({
-        countries: []
+        countries: [],
+        isoCodes: [],
     })
     useEffect(() => {
         (async () => { 
             const countries = await loadAllCountries()
-            console.time('loadAllCountries')
-            const s: AppState = {...appState, countries }
-            console.timeEnd('loadAllCountries')
-            console.log("loaded countries", countries.length)
+            const isoCodes = await fetchIso3166Data()
+            const s: AppState = {...appState, countries, isoCodes}
             setAppState(s)
         })()
     }, [])

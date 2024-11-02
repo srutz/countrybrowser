@@ -4,11 +4,8 @@ import { FlatList, Image, Text, TextInput, TouchableOpacity, View } from "react-
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useAppState } from "../../hooks/AppContext";
 import { useDebouncedCallback } from "../../hooks/Debounce";
+import { formatNumber } from "../../utils/Utils";
 
-const nf = new Intl.NumberFormat('de-DE', {
-    style: 'decimal',
-    maximumFractionDigits: 0
-})
 
 export default function Page() {
     const { appState } = useAppState()
@@ -69,7 +66,7 @@ function ItemRenderer({ item }: { item: Country }) {
                     <View className="ml-8 flex-1">
                         <Text className="text-lg font-bold leading-extra-tight">{item.name.common}</Text>
                         <Text className="text-sm">{item.region} / {item.cca3}</Text>
-                        <Text className="text-sm">Population: {nf.format(item.population)}</Text>
+                        <Text className="text-sm">Population: {formatNumber(item.population)}</Text>
                     </View>
                 </View>
             </View>
