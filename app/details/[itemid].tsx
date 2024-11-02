@@ -1,9 +1,9 @@
 import { useLocalSearchParams, useNavigation } from "expo-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Image, Linking, ScrollView, Text, TouchableOpacity, View } from "react-native";
-import WebView from "react-native-webview";
+import MapView, { Region } from "react-native-maps";
 import { useAppState } from "../../hooks/AppContext";
-import { formatNumber } from "../../utils/Utils";
+import { calculateRegion, formatNumber } from "../../utils/Utils";
 
 export default function Page() {
     const params = useLocalSearchParams()
@@ -23,6 +23,9 @@ export default function Page() {
             Linking.openURL("https://en.wikipedia.org" + link?.href) 
         }
     }
+    
+    // map
+    const [region, setRegion] = useState<Region|undefined>(calculateRegion(item?.latlng[0], item?.latlng[1], 1000))
 
     if (!item) {
         return undefined
@@ -64,8 +67,7 @@ export default function Page() {
                 </TouchableOpacity>
             </View>
             <View className="bg-red-500 w-full h-[500]">
-                {<WebView className="flex-1 bg-blue-500" source={{ uri: uri }} />}
-
+                <MapView className="flex-1" region={region} ></MapView>
             </View>
         </ScrollView>
     )
