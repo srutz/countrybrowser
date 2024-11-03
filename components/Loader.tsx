@@ -7,7 +7,6 @@ const countries = (countriesRaw as unknown as Country[])
 const isoData = (isocodes as unknown as IsoCode3[])
 
 countries.sort((a, b) =>
-    //a.name.common.localeCompare(b.name.common
     b.population - a.population
 )
 

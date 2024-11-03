@@ -1,11 +1,11 @@
+import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Button, Image, Linking, ScrollView, Text, TouchableOpacity, View } from "react-native";
-import MapView, { Region } from "react-native-maps";
+import { Button, Image, Linking, ScrollView, Text, View } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import MapView, { Marker, Region } from "react-native-maps";
 import { useAppState } from "../../hooks/AppContext";
 import { calculateRegion, formatNumber } from "../../utils/Utils";
-import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function Page() {
     const params = useLocalSearchParams()
@@ -36,7 +36,7 @@ export default function Page() {
     }
     return (
         <GestureHandlerRootView className="flex-1 w-full bg-gray-200">
-            {!false && <ScrollView className="flex-1 p-6">
+            <ScrollView className="flex-1 p-6">
                 <View className="flex-1 w-full">
                     <View className="flex-row items-start">
                         <View className="">
@@ -67,10 +67,18 @@ export default function Page() {
                         </View>
                     </View>
                 </View>
-                <View className="bg-white w-full h-[500] mt-4">
-                    <MapView className="flex-1" region={region} ></MapView>
+                <View className="bg-white w-full h-[600] mt-4">
+                    <MapView className="flex-1" region={region} >
+                        {item.capitalInfo.latlng && item.capitalInfo.latlng.length >= 2 && (
+                            <Marker
+                                coordinate={{ latitude: item.capitalInfo.latlng[0], longitude: item.capitalInfo.latlng[1] }}
+                                title={item.capital[0]}
+                                description={item.region + " " + item.subregion}
+                            />
+                        )}
+                    </MapView>
                 </View>
-            </ScrollView>}
+            </ScrollView>
             <BottomSheet ref={bottomSheet} snapPoints={snapPoints} enablePanDownToClose={false}>
                 <BottomSheetView style={{ flex: 1 }}>
                     <View className="flex flex-row justify-center">
