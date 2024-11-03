@@ -1,9 +1,11 @@
 import { useLocalSearchParams, useNavigation } from "expo-router";
-import { useEffect, useState } from "react";
-import { Image, Linking, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Button, Image, Linking, ScrollView, Text, TouchableOpacity, View } from "react-native";
 import MapView, { Region } from "react-native-maps";
 import { useAppState } from "../../hooks/AppContext";
 import { calculateRegion, formatNumber } from "../../utils/Utils";
+import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function Page() {
     const params = useLocalSearchParams()
@@ -17,26 +19,25 @@ export default function Page() {
         })
     }, [navigation, item])
 
+    // map, calculate region based on area, lets hope the country is a square and not chile
+    const areaRoot = Math.sqrt(item?.area || 0) * 1.25
+    const [region, setRegion] = useState<Region | undefined>(calculateRegion(item?.latlng[0], item?.latlng[1], areaRoot))
+    const bottomSheet = useRef<BottomSheet>(null)
+    const snapPoints = useMemo(() => [20, 120], [])
+
     const handlePress = () => {
         const link = appState.isoCodes.find((code) => code.cca3 === item?.cca3)
         if (link) {
-            Linking.openURL("https://en.wikipedia.org" + link?.href) 
+            Linking.openURL("https://en.wikipedia.org" + link?.href)
         }
     }
-    
-    // map
-    const areaRoot = Math.sqrt(item?.area || 0) * 1.25
-    const [region, setRegion] = useState<Region|undefined>(calculateRegion(item?.latlng[0], item?.latlng[1], areaRoot))
-
     if (!item) {
         return undefined
     }
-    //const uri = item.maps.openStreetMaps
-    const uri = "https://www.stepanrutz.com/cv.pdf"
     return (
-        <ScrollView className="flex-1 p-6">
-            <View className="flex-1 w-full">
-                <TouchableOpacity onPress={handlePress}>
+        <GestureHandlerRootView className="flex-1 w-full bg-gray-200">
+            {!false && <ScrollView className="flex-1 p-6">
+                <View className="flex-1 w-full">
                     <View className="flex-row items-start">
                         <View className="">
                             <View className="w-24 h-16 border border-2 border-gray-300">
@@ -65,12 +66,19 @@ export default function Page() {
                             <LabelText >{formatNumber(item.population / item.area)} People/km²</LabelText>
                         </View>
                     </View>
-                </TouchableOpacity>
-            </View>
-            <View className="bg-red-500 w-full h-[500]">
-                <MapView className="flex-1" region={region} ></MapView>
-            </View>
-        </ScrollView>
+                </View>
+                <View className="bg-white w-full h-[500] mt-4">
+                    <MapView className="flex-1" region={region} ></MapView>
+                </View>
+            </ScrollView>}
+            <BottomSheet ref={bottomSheet} snapPoints={snapPoints} enablePanDownToClose={false}>
+                <BottomSheetView style={{ flex: 1 }}>
+                    <View className="flex flex-row justify-center">
+                        <Button title="Open Wikipedia" onPress={handlePress} />
+                    </View>
+                </BottomSheetView>
+            </BottomSheet>
+        </GestureHandlerRootView>
     )
 }
 

@@ -6,9 +6,11 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web -c"
+    "web": "expo start --web -c",
+    "emulator": "home/sr/Android/Sdk/emulator/emulator -avd Medium_Phone_API_35"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^5.0.5",
     "events": "^3.3.0",
     "expo": "~51.0.28",
     "expo-constants": "~16.0.2",
