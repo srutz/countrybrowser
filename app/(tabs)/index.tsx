@@ -99,8 +99,11 @@ function ItemRenderer({ item }: { item: Country }) {
                     </View>
                     <View className="ml-8 flex-1">
                         <Text className="text-lg font-bold leading-extra-tight">{item.name.common}</Text>
-                        <Text className="text-sm">{item.region} / {item.cca3}</Text>
-                        <Text className="text-sm">Population: {formatNumber(item.population)}</Text>
+                        <Text className="text-sm">Population {formatNumber(item.population)}</Text>
+                        <View className="flex flex-row justify-between">
+                            <Text className="text-sm">Area {formatNumber(item.area)} km²</Text>
+                            <Text className="text-sm">{item.region} / {item.cca3}</Text>
+                            </View>
                     </View>
                 </View>
             </View>
