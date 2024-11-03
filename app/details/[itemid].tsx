@@ -25,7 +25,8 @@ export default function Page() {
     }
     
     // map
-    const [region, setRegion] = useState<Region|undefined>(calculateRegion(item?.latlng[0], item?.latlng[1], 1000))
+    const areaRoot = Math.sqrt(item?.area || 0) * 1.25
+    const [region, setRegion] = useState<Region|undefined>(calculateRegion(item?.latlng[0], item?.latlng[1], areaRoot))
 
     if (!item) {
         return undefined
@@ -59,7 +60,7 @@ export default function Page() {
                             <LabelText >Region: {item.region}</LabelText>
                             <LabelText >Subregion: {item.subregion}</LabelText>
                             <LabelText >Capital: {item.capital}</LabelText>
-                            <LabelText >{item.area} km²</LabelText>
+                            <LabelText >{formatNumber(item.area)} km²</LabelText>
                             <LabelText >{formatNumber(item.population)} People</LabelText>
                             <LabelText >{formatNumber(item.population / item.area)} People/km²</LabelText>
                         </View>
